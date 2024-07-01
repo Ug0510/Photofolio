@@ -4,8 +4,9 @@
     margin-top: -16px;
     width: 98%;
     height: 60px;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(100,43,115,1) 0%, rgb(89 63 123) 90% );
-    color:#d6c6e9;
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(100,43,115,1) 0%, rgb(89 63 123) 90% ); */
+    background-color: #001055;
+    color:#fff;
     padding:10px 1%;
     position: sticky;
     display: flex;
@@ -16,8 +17,8 @@
 .navbar span{
     font-size: 2rem;
     font-weight: bold;
-    font-family: cursive;
-    margin-top: 16px;
+    font-family: monospace;
+    margin-top: 1.3rem;
 }
 
 /* navbar cover image */
@@ -26,4 +27,5 @@
     width: 45px;
     margin-right: 5px;
     margin-top: 15px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7478%) hue-rotate(265deg) brightness(100%) contrast(115%);
 }

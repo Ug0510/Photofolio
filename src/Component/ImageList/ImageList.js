@@ -112,7 +112,7 @@ export default function ImageList(props){
                                             setShowImageForm={setShowImageForm} />}
                 {/* collection heading on condition */}
                 {/* if album is empty it will show different heading */}
-                <h1>{imageList.length !== 0 ?"Your Collection":"No Images in Your Collection"}</h1>
+                <h1 style={{color:"#001055", textTransform:'capitalize'}}>{imageList.length !== 0 ?"Your Collection":"No Images in Your Collection"}</h1>
             </div>
                 
             {/* looping over each image in list and showing them within a box */}

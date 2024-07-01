@@ -9,6 +9,10 @@
 /* serach bar withing button container */
 .btnContainer input{
     width: 50%;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #ff7900;
+    border-radius: 0;
 }
 
 /* buttons */
@@ -21,7 +25,7 @@
 /* back button */
 .backBtn{
     float: left;
-    background-color: #51d0de;
+    background-color: #ff7900;
 }
 
 /* add image button */
